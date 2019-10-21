@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%
+}
+
+body {
+    font: 300 1.2em/1.5 sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 100px 60px;
+}
+
+.hero {             
+    background: url('../img/smoke-background.jpg') no-repeat center / cover;
+    padding: 250px 150px;       /* Si esta caja tuviese margin y no padding, el fondo no llegaría hasta los límites laterales */
+    text-align: right;
+}
+
+.grey-background {
+    background-color: rgb(240, 240, 240)
+}
+
+.border-top {
+    border-top: 1px solid #ccc;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.justify-space-between {
+    justify-content: space-between; 
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.center-items {
+    align-items: center
+}
+
+.flex-container article, .flex-container figure {
+    width: 40%; 
+}
+
+.flex-container article{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 26px;
+}
